@@ -6,11 +6,10 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="135">
-        <next>
-          <block type="movement_stop" id="178"></block>
-        </next>
-      </block>
+      <block type="movement_forward" id="135"></block>
     </statement>
+    <next>
+      <block type="movement_stop" id="178"></block>
+    </next>
   </block>
 </xml>
