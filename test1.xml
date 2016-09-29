@@ -1,3 +1,20 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="218" x="-164" y="-492"></block>
+  <block type="controls_repeat" id="333" inline="true" x="-200" y="-506">
+    <value name="TIMES">
+      <block type="math_number" id="340">
+        <field name="NUM">30</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="289">
+        <next>
+          <block type="movement_forward" id="320">
+            <next>
+              <block type="movement_left" id="309"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
 </xml>
