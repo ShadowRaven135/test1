@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="124" inline="true" x="-191" y="-559">
+  <block type="controls_repeat" id="124" inline="true" x="-225" y="-607">
     <value name="TIMES">
       <block type="math_number" id="168">
         <field name="NUM">30</field>
@@ -8,7 +8,7 @@
     <statement name="DO">
       <block type="movement_forward" id="135">
         <next>
-          <block type="movement_reverse" id="188"></block>
+          <block type="movement_left" id="198"></block>
         </next>
       </block>
     </statement>
