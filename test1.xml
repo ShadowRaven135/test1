@@ -8,11 +8,7 @@
     <statement name="DO">
       <block type="movement_forward" id="3">
         <next>
-          <block type="movement_forward" id="4">
-            <next>
-              <block type="movement_left" id="5"></block>
-            </next>
-          </block>
+          <block type="movement_forward" id="4"></block>
         </next>
       </block>
     </statement>
